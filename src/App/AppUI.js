@@ -6,6 +6,7 @@ import { ToDoSearch } from "../ToDoSearch";
 import { CreateToDoButton } from "../CreateToDoButton";
 import { ToDoItem } from "../ToDoItem";
 import { ToDoList } from "../ToDoList";
+import {Modal} from '../Modal'
 
 function AppUI() {
     const {
@@ -36,7 +37,10 @@ function AppUI() {
                     />
                 ))}
            </ToDoList>
-
+           
+           <Modal>
+            <p>TELETRANSPORTACIÓN</p>
+           </Modal>
 
             <CreateToDoButton />
         </React.Fragment>
